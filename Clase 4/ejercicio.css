@@ -1,0 +1,47 @@
+.encabezado {
+    position: fixed; /*para menu en general*/ 
+    height: 200px;
+    width: 100%;
+    background-color:gainsboro;
+    display: block;
+}
+
+.encabezado h1 {
+    color: hotpink;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+}
+
+
+.productos {
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    display: flex;
+}
+
+.productos ul {
+display: flex;
+list-style: none;
+justify-content: flex-start;
+}
+
+.menuMobile {
+    position: fixed;
+    top: 0px;
+    left: 0px; 
+    width: 100px;
+    height: 100px;
+    background-color: darkorange;
+}
+
+@media (max-width:700px) {
+    .encabezado {
+        display: none;
+    }
+
+    .productos ul {
+        display: block;
+    }
+
+}
