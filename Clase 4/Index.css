@@ -88,5 +88,39 @@ p::before {
     background-color: mediumvioletred;
 }
 
+.fijo {
+position: fixed; /*para menu en general*/ 
+height: 50px;
+width: 100%;
+background-color: navajowhite;
+top: 0;
+left: 0;
+box-shadow: 10px /*eje x*/ 10px /*eje Y*/  10px /*difuminado*/ black;
+}
 
+.fijo ul {
+    display: flex;
+    list-style: none;
+    justify-content: flex-start;
+}
+
+.menuMobile {
+    position: fixed;
+    top: 0px;
+    left: 0px; 
+    width: 100px;
+    height: 100px;
+    background-color: darkorange;
+    display: none;
+}
+
+@media (min-width:700px) {
+    .fijo {
+        background-color: coral;
+        display: ;
+    }
+        
+    .menuMobile {
+        display: block;
+    }
 
