@@ -1,0 +1,166 @@
+/*.barra {
+    cursor: crosshair;
+    font-family: 'Playfair Display', serif;
+    text-decoration: none;
+    padding: 20px 50px;
+    list-style: none;
+    display: inline-block;
+    color: #032ca6;
+
+}*/
+header {
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+}
+
+/*.barranavegacion {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    align-items: center;
+
+}*/
+
+.imagenboton {
+    height: 100px;
+}
+
+
+ul {
+    font-family: 'Karla', sans-serif;
+    font-size: 20px;
+    color: #E81E74;
+    }
+
+
+.barra {
+    text-decoration: none;
+    padding: 20px 50px;
+    list-style: none;
+    display: inline;
+}
+
+
+a {
+    color: #E81E74;
+    cursor: pointer;
+    text-decoration: none;
+    }
+
+a:hover {
+    color: #032CA6;
+}
+
+.descripcion {
+    font-family:  'Karla', sans-serif;
+    text-align: center;
+    padding: 50px;
+    st
+}
+
+.imageninicio {
+    width: 500px;
+}
+
+.h1bajada {
+    color: #E81E74;
+    font-size: 25pt;
+    font-weight: normal;
+    margin-top: 0px;
+}
+
+.parrafotitulo {
+    color: #A3A3A3;
+    font-size: 15pt;
+    font-weight: normal;
+}
+
+.productos {
+    background-color: #F2F2F2;
+   /* padding: 50px;
+    align-items: flex-start;
+    justify-content: space-around;    */      
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+.plan {
+    padding: 50px;
+    display: inline-block;
+    width: 350px;
+    font-family:  'Karla', sans-serif;
+    text-align: center;
+}
+
+.imagenplan {
+    width: 250px;
+}
+
+.tituloplan1 {
+    font-size: 15pt;
+    font-weight: bold;
+    color: #A3A3A3;
+}
+
+.tituloplan2 {
+    font-size: 15pt;
+    font-weight: bold;
+    color:  #032CA6;
+}
+
+.tituloplan3 {
+    font-size: 15pt;
+    font-weight: bold;
+    color:  #E81E74;
+}
+
+.contacto {
+    background: #032CA6;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px;
+}
+
+.h1contacto {
+    font-family:  'Karla', sans-serif;
+    font-style: italic;
+    color: #ffffff;
+    text-align: center;
+    padding: 50px;
+}
+
+.formulario {
+    font-family:  'Karla', sans-serif;
+    color: #ffffff;
+    display: inline-block;
+}
+
+
+.cuadro {
+    border-width: 0px;
+    /*border-style: groove;
+    border-color: threedface;
+    border-image: initial;*/
+}
+
+.redessociales {
+    display: flexbox;
+    
+}
+
+.imredes {
+    width: 30px;
+    justify-content: space-around;
+    font-display: flex;
+    text-align: center;
+    vertical-align: middle
+}
+
+.pcontacto {
+    display: inline;
+    color: #ffffff;
+    font-family:  'Karla', sans-serif;
+}
