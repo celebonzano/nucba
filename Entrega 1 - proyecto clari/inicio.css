@@ -117,6 +117,10 @@ a:hover {
     color:  #E81E74;
 }
 
+.textoplan{
+    color: #606060;
+}
+
 .contacto {
     background: #032CA6;
     display: flex;
@@ -175,3 +179,26 @@ a:hover {
 .facebook {
     padding: 10px 0px;
 }
+
+footer {
+    background-color: lightslategray;
+    padding: 20px;
+}
+
+.h1footer {
+    color: #ffffff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15pt;
+    font-weight: normal;
+    text-align: center;    
+}
+
+/*.pfooter {
+    color: #ffffff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15pt;
+    font-weight: normal;
+    text-align: center;
+    font-style: italic;    
+    padding: 0px;
+}*/
