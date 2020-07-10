@@ -146,9 +146,14 @@ a:hover {
     border-image: initial;*/
 }
 
+.pcontacto {
+    display: inline;
+    color: #ffffff;
+    font-family:  'Karla', sans-serif;
+}
 .redessociales {
     display: flexbox;
-    
+
 }
 
 .imredes {
@@ -159,8 +164,3 @@ a:hover {
     vertical-align: middle
 }
 
-.pcontacto {
-    display: inline;
-    color: #ffffff;
-    font-family:  'Karla', sans-serif;
-}
