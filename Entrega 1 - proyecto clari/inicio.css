@@ -10,8 +10,12 @@
 }*/
 header {
     display: flex;  
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
+    position: fixed;
+    background-color: #ffffff;
+    width: 100%;
+    padding: 0px 50px;
 }
 
 /*.barranavegacion {
@@ -56,7 +60,8 @@ a:hover {
     font-family:  'Karla', sans-serif;
     text-align: center;
     padding: 50px;
-    background-color:  #F2F2F2;;
+    background-color:  #F2F2F2;
+    padding-top: 150px;
 }
 
 .imageninicio {
@@ -191,6 +196,19 @@ footer {
     font-size: 15pt;
     font-weight: normal;
     text-align: center;    
+}
+
+.formulario fieldset {
+    border: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    padding-block-start: 0;
+    padding-inline-start: 0;
+    padding-inline-end: 0;
+}
+
+.botonForm {
+    padding: 8px 16px;
 }
 
 /*.pfooter {
