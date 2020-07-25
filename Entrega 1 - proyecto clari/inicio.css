@@ -8,6 +8,10 @@
     color: #032ca6;
 
 }*/
+
+body {
+    margin: 0px;
+}
 header {
     display: flex;  
     justify-content: space-around;

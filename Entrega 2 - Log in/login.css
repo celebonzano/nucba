@@ -1,0 +1,120 @@
+.body {
+    /*background-color: #032CA6;*/
+    background-color: #E81E74;
+    display: flex;
+    justify-content: center;
+}
+
+.login {
+    background-color: white;
+    width: 600px;
+    font-family: 'Karla', sans-serif;
+    font-size: 18px;
+    margin: 100px;
+    padding: 20px;
+    border-radius: 30px;
+}
+.titulo {
+    text-align: center;
+}
+
+
+
+.imagenboton {
+    height: 250px;
+}
+
+.bajada {
+    color: #032CA6;
+    padding: 0px 20px 20px 20px;
+    margin-block-start: 0px;
+}
+
+
+
+.formulario {
+    display: block;
+    align-items: center;
+    text-align: center;
+    margin-top: 0px;
+    }
+
+.fieldset {
+
+        border: none;
+        align-items: center;
+        text-align: center;
+    }
+
+
+@keyframes pulse {
+    100% {
+      background-color: #032CA6;
+    }
+    0% {
+      background-color: #E81E74;
+    }
+}
+.cuadro {
+    font-family: karla;
+    font-size: 20px;
+    color: white;
+    border-radius: 12px;
+    padding: 10px;
+    text-align: center;
+    border-color: #032CA6;
+    border-style: dotted;
+    background-color: white;
+}
+
+text {
+    color: white;
+}
+
+.cuadro:hover {
+    background-color:  #E81E74;
+}
+
+.boton {
+    font-size: 20px;
+    font-weight: bold;
+    background-color:#E81E74;
+    width: 300px;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    padding: 12px;
+}
+
+.boton:hover {
+    animation-name: pulse;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+.contra {
+    text-align: center;
+}
+
+a {
+    color: gray;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+/*body{
+    background-color: cyan;
+    animation-name: pulse;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+    @keyframes pulse {
+    0% {
+      background-color: cyan;
+    }
+    100% {
+      background-color: #FF4136;
+    }
+    */
