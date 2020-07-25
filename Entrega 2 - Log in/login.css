@@ -1,5 +1,4 @@
 .body {
-    /*background-color: #032CA6;*/
     background-color: #E81E74;
     display: flex;
     justify-content: center;
@@ -18,8 +17,6 @@
     text-align: center;
 }
 
-
-
 .imagenboton {
     height: 250px;
 }
@@ -29,8 +26,6 @@
     padding: 0px 20px 20px 20px;
     margin-block-start: 0px;
 }
-
-
 
 .formulario {
     display: block;
@@ -45,7 +40,6 @@
         align-items: center;
         text-align: center;
     }
-
 
 @keyframes pulse {
     100% {
@@ -103,18 +97,3 @@ a {
     font-size: 15px;
 }
 
-/*body{
-    background-color: cyan;
-    animation-name: pulse;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-}
-    @keyframes pulse {
-    0% {
-      background-color: cyan;
-    }
-    100% {
-      background-color: #FF4136;
-    }
-    */
