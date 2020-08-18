@@ -1,0 +1,46 @@
+/* Colores */
+/* estilos texto */
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: fixed;
+  background-color: #ffffff;
+  width: 100%;
+  padding: 0px 50px;
+}
+
+.header .imagenboton {
+  height: 200px;
+}
+
+.header .menu {
+  display: none;
+}
+
+.header ul {
+  font-family: 'Karla', sans-serif;
+  font-size: 20px;
+}
+
+.header .barra {
+  padding: 20px 50px;
+  list-style: none;
+  display: inline;
+}
+
+.header a {
+  color: #E81E74;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.header a:hover {
+  color: #032CA6;
+}
+/*# sourceMappingURL=index.css.map */

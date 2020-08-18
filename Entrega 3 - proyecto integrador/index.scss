@@ -1,0 +1,42 @@
+@import 'utils.scss';
+
+.header {
+    display: flex;  
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    background-color: #ffffff;
+    width: 100%;
+    padding: 0px 50px;
+
+    .imagenboton {
+        height: 200px;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    ul {
+        font-family: 'Karla', sans-serif;
+        font-size: 20px;
+        }
+    
+    
+    .barra {
+        padding: 20px 50px;
+        list-style: none;
+        display: inline;
+    }
+
+    a {
+        color: $magenta;
+        cursor: pointer;
+        text-decoration: none;
+        }
+
+    a:hover {
+        color: $azul;
+    }
+
+}
